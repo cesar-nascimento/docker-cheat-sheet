@@ -5,6 +5,7 @@
 * `docker ps -a` - exibe todos os containers, independentemente de estarem em execução ou não.
 
 ### Comandos relacionados à execução
+* `docker run --rm NOME_DA_IMAGEM` - [Automaticamente remove o container quando parar a execução.](https://docs.docker.com/engine/reference/run/#clean-up---rm)
 * `docker run NOME_DA_IMAGEM` - cria um container com a respectiva imagem passada como parâmetro.
 * `docker run -it NOME_DA_IMAGEM` - conecta o terminal que estamos utilizando com o do container.
 * `docker run -d -P --name NOME dockersamples/static-site` - ao executar, dá um nome ao container e define uma porta aleatória.
